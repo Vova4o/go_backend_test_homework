@@ -10,7 +10,7 @@ var (
 )
 
 func TestCheckRequiredFiles(t *testing.T) {
-
+	// new function
 	dir, err := os.Getwd()
 	if err != nil {
 		t.Errorf(err.Error())
